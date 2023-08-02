@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    background-image: url(https://picsum.photos/1024/800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: aliceblue;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+main {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 300px;
+}
+
+h1, p {
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.loader {
+    background-color: aliceblue;
+    background: linear-gradient(to right,gray 70%, aliceblue 30%);
+    width: 500px;
+    height: 10px;
+}
+
+.percent {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100px;
+    color: aliceblue;
+    background-color: gray;
+    padding: 8px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 350px;
+    gap: 12px;
+}
+
+footer img {
+    width: 40px;
+}
